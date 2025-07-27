@@ -1,0 +1,12 @@
+cd ..  -> to come back from existing directory
+To get web go to mernapp(directory) and then npm start
+
+mongodb  : username: cvkumarreddy2004  password :jXaSNVxoxlNJFkke
+mongodb+srv://cvkumarreddy2004:jXaSNVxoxlNJFkke@cluster0.cn4gmgy.mongodb.net/
+
+to run backend :: cd to backend , nodemon index.js 
+
+user : email    :sai@gmail.cm
+       password : 12345
+       arjundas@gmail.com
+       arjundas
