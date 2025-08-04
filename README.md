@@ -1,30 +1,42 @@
-# QuickEats ( Food Delivery App )
-A fullty functional and secure food delivery app developed using MERN stack. Integrated user authentication to ensure secure access and personalized order history retrieval and a cart for adding food items, enhancing user
- engagement and convenience. Designed intuitive user interfaces for seamless browsing, ordering, and delivering the food.
+# QuickEats – Food Delivery App
 
-## 🌟 Commands for running the app
+QuickEats is a fully functional and secure food delivery application built using the MERN stack. It features robust user authentication, personalized order history, and an intuitive cart system for adding and managing food items. The application is designed with a focus on user convenience and seamless interaction for browsing, ordering, and food delivery.
 
-- **⚛️ npx create-react-app my-app**  :
-  used for building the react app ; make sure to run this command in the project directory
-- **⚛️ npm start**  :
-  after creating the react app and all its dependencies and then ENTER, try this command to start the react app (Frontend)
- - **⚛️ nodemon index.js**  :
-  (run this after going into backend directory using "cd backend") and then press TAB button and then ENTER , this activates the backend (database connects to the react app)
+## Commands to Run the App
 
-## 🌟 Features
+- `npx create-react-app my-app`  
+  Initializes the React application. Run this command inside your frontend project directory.
 
-- **⚛️ Tech Stack**: React.js, MongoDB, Node.js, Express, Tailwind CSS, Bootstrap v5
-- **🔐 Authentication**: Secure login and registration using JSON Web Tokens (JWT) and bcrypt for storing passwords in encrypted form
-- **👥 Updating Food items in cart**: If you add same type of food item in the cart , it automatically updates the quantity of food item instead of adding it as a new element
-- **✍️ Adding Food items to cart**: Add the food items that you want by selecting the option and quantity of each you want to order
-- **🗑️ Deleting Food items from cart**: Remove your food items when not needed in the cart using delete button
-- **💬 Checking previous Order History**: After checking out in the cart using **checkout** button , you can see that order in myorders.
-- **🔒 Get Current Location**: To deliver the food correctly , there has been a button called **Get Location** introduced for getting the current location of the user instantly
-- **🔔 Notifications**: Alert (with quantity of cart) is showed on cart button if you add any items to the cart 
+- `npm start`  
+  Starts the React frontend after all dependencies are installed.
 
-## 🛠️ Tech Stack
+- `nodemon index.js`  
+  Run this inside the backend directory (`cd backend`). This activates the backend server and connects it with the database.
 
-- **Frontend**: React.js, Tailwind CSS, Bootstrap v5
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Image Hosting**: Unsplash.com
+## Key Features
+
+- **Tech Stack**: React.js, MongoDB, Node.js, Express, Tailwind CSS, Bootstrap v5
+
+- **Authentication**: Secure login and registration using JSON Web Tokens (JWT) and bcrypt for encrypted password storage.
+
+- **Cart Management**:  
+  - Automatically updates quantity if the same food item is added again.  
+  - Allows selection of item type and quantity.  
+  - Items can be removed from the cart easily.
+
+- **Order History**:  
+  After checkout, users can view their past orders in the "My Orders" section.
+
+- **Location Support**:  
+  Includes a "Get Location" button to fetch the user's current location for delivery assistance.
+
+- **Cart Notifications**:  
+  The cart button displays the total quantity of items, keeping users updated in real time.
+
+## Tech Stack
+
+- **Frontend**: React.js, Tailwind CSS, Bootstrap v5  
+- **Backend**: Node.js, Express.js  
+- **Database**: MongoDB  
+- **Image Hosting**: Unsplash
+
